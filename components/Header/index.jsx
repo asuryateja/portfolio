@@ -102,17 +102,7 @@ const Navigation = ({ isMobile = false, onLinkClick }) => (
     </motion.nav>
 );
 
-const ContactButton = ({ isMobile = false, onLinkClick }) => (
-    <motion.div
-        className={`flex items-center ${isMobile ? 'w-full justify-center mt-4' : 'ml-auto space-x-6'}`}
-        initial={{ opacity: 0, x: isMobile ? 0 : 20 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ delay: isMobile ? 0.5 : 0.4, duration: 0.5 }}
-        onClick={onLinkClick}
-    >
-        {/* Your button or content here */}
-    </motion.div>
-)
+
 
 
 const Header = () => {
@@ -137,9 +127,7 @@ const Header = () => {
                 <div className="container mx-auto flex items-center justify-between md:px-64 px-4 sm:px-6">
                     <Logo />
                     <Navigation />
-                    <div className="hidden md:block">
-                        <ContactButton />
-                    </div>
+                    
                     
                     {/* Mobile Menu Button */}
                     <button
