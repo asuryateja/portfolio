@@ -178,7 +178,7 @@ const Header = () => {
                                 </div>
 
                                 {/* Mobile Contact Button */}
-                                <ContactButton isMobile={true} onLinkClick={closeMobileMenu} />
+                              
                             </div>
                         </motion.div>
                     </>
