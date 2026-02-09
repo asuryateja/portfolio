@@ -104,19 +104,16 @@ const Navigation = ({ isMobile = false, onLinkClick }) => (
 
 const ContactButton = ({ isMobile = false, onLinkClick }) => (
     <motion.div
-        className={`flex items-center ${isMobile ? 'w-full justify-center mt-4' : 'space-x-6'}`}
+        className={`flex items-center ${isMobile ? 'w-full justify-center mt-4' : 'ml-auto space-x-6'}`}
         initial={{ opacity: 0, x: isMobile ? 0 : 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: isMobile ? 0.5 : 0.4, duration: 0.5 }}
         onClick={onLinkClick}
     >
-        <Link href={"https://drive.google.com/file/d/1jZceEW6d8XLqWUgEghFdfcpgO8uzN-u1/view?usp=drive_link"} target='_blank' className={isMobile ? 'w-full' : ''}>
-            <Button className={`${isMobile ? 'w-full' : ''} rounded-2xl font-semibold bg-white text-gray-900 hover:bg-gray-200 text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3`}>
-                <span className="hidden sm:inline">Resume</span>
-            </Button>
-        </Link>
+        {/* Your button or content here */}
     </motion.div>
-);
+)
+
 
 const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

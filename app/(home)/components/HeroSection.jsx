@@ -99,14 +99,14 @@ const HeroSection = () => {
             variants={itemAnimation}
             className="flex flex-wrap gap-4 justify-center pt-6"
           >
-            <Link href={"/projects"}>
+            <Link href={"https://drive.google.com/file/d/1jZceEW6d8XLqWUgEghFdfcpgO8uzN-u1/view?usp=drive_link"} target='_blank'>
               <Button
   variant="expandIcon"
   Icon={HiArrowRight}
   iconPlacement="right"
   className="rounded-full px-6 py-6 text-base transition-all duration-300 hover:scale-105 font-semibold"
 >
-  View Projects
+  Resume
 </Button>
 
             </Link>
