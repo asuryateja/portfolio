@@ -57,10 +57,10 @@ const HeroSection = () => {
           className="max-w-3xl mx-auto text-center space-y-8 relative"
         >
           <motion.div
-            variants={itemAnimation}
-            className="inline-flex items-center space-x-2 bg-secondary/10 border-[1.8px] border-zinc-900/70 px-4 py-2 rounded-full text-primary backdrop-blur-sm"
-          >
             
+            className="inline-flex items-center space-x-2  px-4 py-2 rounded-full text-primary"
+          >
+        
             
           </motion.div>
 
