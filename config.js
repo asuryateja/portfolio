@@ -137,19 +137,34 @@ export const config = {
             technologies: ["React", "Node.js", "MongoDB", "Express", "JavaScript", "MERN Stack"]
         },
         {
-            position: "Frontend Developer",
-            company: "SelectSkillSet",
-            period: "2024 - Present",
-            location: "Remote",
-            description: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build scalable web solutions.",
-            responsibilities: [
-                "Building responsive and interactive user interfaces using React and Next.js",
-                "Implementing modern UI/UX designs with TailwindCSS and Framer Motion",
-                "Optimizing application performance and ensuring cross-browser compatibility",
-                "Collaborating with design and backend teams to deliver high-quality features"
-            ],
-            technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "TypeScript"]
-        },
+    position: "Python Developer",
+    company: "HomeGoods",
+    period: "Jan 2020 - Sep 2021",
+    location: "Framingham, MA, USA",
+    description: "Designed and enhanced retail and inventory management platforms supporting order tracking and store-level operations, focusing on scalability, performance, and high availability during peak retail traffic.",
+    responsibilities: [
+        "Designed and developed responsive, user-friendly interfaces using HTML5, CSS3, and Bootstrap for internal retail and inventory management workflows",
+        "Enhanced backend reliability by implementing structured error handling, request validation, and logging to stabilize high-traffic order and inventory workflows",
+        "Developed backend services using Flask to support order tracking, inventory synchronization, and store-level operations",
+        "Designed and implemented scalable RESTful APIs to integrate store systems, warehouses, and external logistics providers",
+        "Modeled and optimized MongoDB data schemas to improve data consistency, performance, and availability across retail locations",
+        "Deployed and containerized applications on AWS using Docker and Nginx to ensure scalable, reliable, and production-ready deployments"
+    ],
+    technologies: [
+        "Python",
+        "Flask",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "MongoDB",
+        "AWS",
+        "Docker",
+        "Nginx",
+        "REST APIs",
+        "Postman",
+        "Microservices Architecture"
+    ]
+},
         {
     position: "Python Developer",
     company: "Pramati Technology Pvt Ltd",
