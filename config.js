@@ -163,7 +163,6 @@ export const config = {
         "Designed and optimized MySQL database schemas to improve query performance, data integrity, and transactional consistency",
         "Integrated AWS S3 for secure document storage and retrieval in onboarding workflows",
         "Supported machine learning–based validation workflows using TensorFlow and Scikit-Learn to improve data quality",
-        "Contributed to unit and integration testing to improve application stability and production reliability",
         "Collaborated with senior engineers, QA teams, and business stakeholders to deliver secure, production-ready features"
     ],
     technologies: [
