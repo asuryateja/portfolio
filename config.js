@@ -151,19 +151,39 @@ export const config = {
             technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "TypeScript"]
         },
         {
-            position: "Full Stack Developer",
-            company: "Tekisky",
-            period: "2023 - 2024",
-            location: "Remote",
-            description: "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
-            responsibilities: [
-                "Developed and maintained full-stack web applications using React, Node.js, and MongoDB",
-                "Implemented RESTful APIs and integrated third-party services",
-                "Built responsive user interfaces and optimized application performance",
-                "Worked on database design and backend architecture"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "JavaScript", "MERN Stack"]
-        }
+    position: "Python Developer",
+    company: "Pramati Technology Pvt Ltd",
+    period: "Jul 2018 - Dec 2019",
+    location: "Hyderabad, India",
+    description: "Designed and developed scalable backend services for customer onboarding and profile management systems, focusing on secure RESTful APIs, data-driven workflows, and cloud-integrated solutions while following enterprise engineering standards.",
+    responsibilities: [
+        "Designed, developed, and optimized backend services using Python, Django, and Django REST Framework for customer onboarding and profile management workflows",
+        "Built and maintained secure RESTful APIs with robust input validation and documentation using Swagger and Postman",
+        "Implemented JWT-based authentication and role-based access control (RBAC) to protect sensitive customer data",
+        "Designed and optimized MySQL database schemas to improve query performance, data integrity, and transactional consistency",
+        "Integrated AWS S3 for secure document storage and retrieval in onboarding workflows",
+        "Supported machine learning–based validation workflows using TensorFlow and Scikit-Learn to improve data quality",
+        "Contributed to unit and integration testing to improve application stability and production reliability",
+        "Collaborated with senior engineers, QA teams, and business stakeholders to deliver secure, production-ready features"
+    ],
+    technologies: [
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "MySQL",
+        "AWS S3",
+        "Docker",
+        "Jenkins",
+        "GitLab CI/CD",
+        "JWT",
+        "RBAC",
+        "REST APIs",
+        "Swagger",
+        "TensorFlow",
+        "Scikit-Learn"
+    ]
+}
+
     ],
     contactInfo: [
      
