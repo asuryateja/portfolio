@@ -66,53 +66,77 @@ export const config = {
   {
     title: "Python & Backend",
     icon: <HiCode />,
-    description: "APIs, services, and scalable systems",
+    description: "APIs, microservices, and high-scale backend systems",
     bgClass: "bg-blue-500/10",
     iconClass: "text-blue-500",
     skills: [
       { name: "Python", level: "Expert", hot: true },
       { name: "FastAPI", level: "Advanced", hot: true },
-      { name: "REST APIs", level: "Advanced" },
-      { name: "SQL", level: "Advanced" },
+      { name: "Django & DRF", level: "Advanced" },
+      { name: "Flask", level: "Advanced" },
+      { name: "REST APIs", level: "Advanced", hot: true },
+      { name: "Asynchronous Processing", level: "Advanced" },
+      { name: "Microservices Architecture", level: "Advanced", hot: true },
+      { name: "PostgreSQL", level: "Advanced" },
+      { name: "MySQL", level: "Advanced" },
       { name: "MongoDB", level: "Advanced" }
     ]
   },
   {
-    title: "AI, ML & GenAI",
+    title: "AI, ML & Data",
     icon: <HiDatabase />,
-    description: "Machine learning & LLM-powered systems",
+    description: "Machine learning, data validation, and analytics workflows",
     bgClass: "bg-emerald-500/10",
     iconClass: "text-emerald-500",
     skills: [
+      { name: "TensorFlow", level: "Advanced" },
       { name: "PyTorch", level: "Advanced", hot: true },
-      { name: "LLMs / GenAI", level: "Advanced", hot: true },
-      { name: "RAG Systems", level: "Advanced" },
-      { name: "AI Agents (LangChain, LangGraph)", level: "Advanced", hot: true },
-      { name: "Vector Databases (FAISS, ChromaDB)", level: "Intermediate" }
+      { name: "Scikit-Learn", level: "Advanced" },
+      { name: "Pandas & NumPy", level: "Advanced" },
+      { name: "Data Validation Pipelines", level: "Advanced" },
+      { name: "Event-Driven Processing (Kafka)", level: "Advanced", hot: true }
     ]
   },
   {
-    title: "MLOps, Cloud & Tools",
+    title: "Cloud, DevOps & Security",
     icon: <HiCube />,
-    description: "Deployment, experimentation, and productivity",
+    description: "Cloud-native systems, CI/CD, and enterprise security",
     bgClass: "bg-orange-500/10",
     iconClass: "text-orange-500",
     skills: [
-      { name: "AWS", level: "Advanced", hot: true },
-      { name: "Docker", level: "Advanced" },
-      { name: "MLflow", level: "Advanced" },
-      { name: "Git & GitHub", level: "Advanced" },
-      { name: "Linux", level: "Advanced" }
+      { name: "AWS (EC2, RDS, S3, IAM, CloudWatch)", level: "Advanced", hot: true },
+      { name: "Docker", level: "Advanced", hot: true },
+      { name: "Kubernetes", level: "Advanced" },
+      { name: "CI/CD (GitLab, Jenkins)", level: "Advanced" },
+      { name: "OAuth2, JWT, RBAC, MFA", level: "Advanced", hot: true },
+      { name: "Nginx", level: "Advanced" },
+      { name: "Linux", level: "Advanced" },
+      { name: "Monitoring & Production Support", level: "Advanced" }
+    ]
+  },
+  {
+    title: "Frontend & UX",
+    icon: <HiSparkles />,
+    description: "Enterprise UI development and user experience",
+    bgClass: "bg-purple-500/10",
+    iconClass: "text-purple-500",
+    skills: [
+      { name: "Angular", level: "Advanced", hot: true },
+      { name: "TypeScript", level: "Advanced" },
+      { name: "React", level: "Advanced" },
+      { name: "HTML5 / CSS3 / Bootstrap", level: "Advanced" },
+      { name: "Role-Based UI & Accessibility", level: "Advanced" }
     ]
   }
-],
+]
+,
 
     experiences: [
         {
     position: "Senior Python Developer",
     company: "Delta Dental Insurance",
     period: "Mar 2024 - Present",
-    location: "Los Angeles, USA",
+    location: "Los Angeles, CA, USA",
     description: "Working on enterprise-scale healthcare insurance platforms, leading the development of secure, cloud-native, microservices-based systems to support member management, claims processing, and provider-facing applications with high availability and regulatory compliance.",
     responsibilities: [
         "Designed and developed Angular-based user interfaces with responsive design, role-based behavior, and strong UI/UX consistency for insurance operations platforms",
