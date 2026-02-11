@@ -99,7 +99,7 @@ const HeroSection = () => {
             variants={itemAnimation}
             className="flex flex-wrap gap-4 justify-center pt-6"
           >
-            <Link href={"https://drive.google.com/file/d/1jZceEW6d8XLqWUgEghFdfcpgO8uzN-u1/view?usp=drive_link"} target='_blank'>
+            <Link href={"https://drive.google.com/file/d/13KO-LPKjO-6k_ymQKLETa216_L0ot1Kl/view?usp=sharing"} target='_blank'>
               <Button
   variant="expandIcon"
   Icon={HiArrowRight}
