@@ -123,19 +123,36 @@ export const config = {
             technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "TypeScript"]
         },
         {
-            position: "Full Stack Developer",
-            company: "Tekisky",
-            period: "2023 - 2024",
-            location: "Remote",
-            description: "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
-            responsibilities: [
-                "Developed and maintained full-stack web applications using React, Node.js, and MongoDB",
-                "Implemented RESTful APIs and integrated third-party services",
-                "Built responsive user interfaces and optimized application performance",
-                "Worked on database design and backend architecture"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "JavaScript", "MERN Stack"]
-        },
+    position: "Python Developer",
+    company: "First Citizens Bank",
+    period: "Oct 2021 - Feb 2024",
+    location: "Los Angeles, USA",
+    description: "Worked on enterprise-scale digital banking platforms, designing cloud-native, microservices-based backend systems to support secure, real-time financial transactions with high availability, scalability, and regulatory compliance.",
+    responsibilities: [
+        "Led backend architecture and development using Python and FastAPI, building high-performance asynchronous services for real-time, high-concurrency financial workloads",
+        "Designed and implemented secure, versioned RESTful APIs with strong validation, centralized logging, and structured error handling for enterprise integrations",
+        "Engineered and optimized PostgreSQL database schemas to ensure ACID-compliant transactions and high-performance processing for financial systems",
+        "Designed event-driven microservices architectures using Apache Kafka to support transaction notifications, fraud detection, and reconciliation workflows",
+        "Built and managed scalable AWS cloud infrastructure using EC2, RDS, S3, API Gateway, IAM, and CloudWatch to ensure reliability and fault tolerance",
+        "Containerized services with Docker and orchestrated deployments using Kubernetes and GitLab CI/CD to enable automated, zero-downtime releases"
+    ],
+    technologies: [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Apache Kafka",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "GitLab CI/CD",
+        "OAuth2",
+        "JWT",
+        "RBAC",
+        "REST APIs",
+        "OpenAPI / Swagger",
+        "Microservices Architecture"
+    ]
+},
         {
     position: "Python Developer",
     company: "HomeGoods",
