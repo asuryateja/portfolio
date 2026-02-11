@@ -109,24 +109,45 @@ export const config = {
 
     experiences: [
         {
-            position: "Frontend Developer",
-            company: "SelectSkillSet",
-            period: "2024 - Present",
-            location: "Remote",
-            description: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build scalable web solutions.",
-            responsibilities: [
-                "Building responsive and interactive user interfaces using React and Next.js",
-                "Implementing modern UI/UX designs with TailwindCSS and Framer Motion",
-                "Optimizing application performance and ensuring cross-browser compatibility",
-                "Collaborating with design and backend teams to deliver high-quality features"
-            ],
-            technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "TypeScript"]
-        },
+    position: "Senior Python Developer",
+    company: "Delta Dental Insurance",
+    period: "Mar 2024 - Present",
+    location: "Los Angeles, USA",
+    description: "Working on enterprise-scale healthcare insurance platforms, leading the development of secure, cloud-native, microservices-based systems to support member management, claims processing, and provider-facing applications with high availability and regulatory compliance.",
+    responsibilities: [
+        "Designed and developed Angular-based user interfaces with responsive design, role-based behavior, and strong UI/UX consistency for insurance operations platforms",
+        "Designed and developed backend services using Python and FastAPI to implement core business logic for eligibility, claims, and member workflows",
+        "Built secure, versioned RESTful APIs with request validation, structured error handling, centralized logging, and asynchronous processing for high-concurrency services",
+        "Designed and optimized PostgreSQL database schemas to ensure ACID-compliant transactions, data integrity, and performance at scale",
+        "Built and managed scalable AWS infrastructure using EC2, RDS, S3, IAM, and CloudWatch to support highly available cloud-native applications",
+        "Containerized services using Docker, orchestrated deployments with Kubernetes, and automated CI/CD pipelines to enable reliable, zero-downtime releases"
+    ],
+    technologies: [
+        "Python",
+        "FastAPI",
+        "Angular",
+        "TypeScript",
+        "PostgreSQL",
+        "Apache Kafka",
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "CI/CD Pipelines",
+        "OAuth2",
+        "JWT",
+        "RBAC",
+        "MFA",
+        "REST APIs",
+        "OpenAPI / Swagger",
+        "Microservices Architecture"
+    ]
+}
+,
         {
     position: "Python Developer",
     company: "First Citizens Bank",
     period: "Oct 2021 - Feb 2024",
-    location: "Los Angeles, USA",
+    location: "Los Angeles, CA, USA",
     description: "Worked on enterprise-scale digital banking platforms, designing cloud-native, microservices-based backend systems to support secure, real-time financial transactions with high availability, scalability, and regulatory compliance.",
     responsibilities: [
         "Led backend architecture and development using Python and FastAPI, building high-performance asynchronous services for real-time, high-concurrency financial workloads",
